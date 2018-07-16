@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<head>
+<meta charset="utf-8"> 
+<title>SQL Injection form error example</title> 
+<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet"> 
+    <link href="css/login.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+<div class="jumbotron">
+	<h2>Unsecured Bank Login</h2>
+	<p>SQl vulnerable bank portal</p>
+</div>
+
+
+<form class="form-signin" action="action.php" method="POST">
+<h3 class="form-singin-heading">Employee Credentials</h3>
+<label for="uid">User ID:</label>
+<input type="text" class="form-control" id="uid" name="uid" placeholder="User ID" autocomplete="off" required autofocus>
+<label for="passid" >Password:</label>
+<input type="password" class="form-control" id="passid" name="passid" placeholder="Password" required>
+<button class="btn btn-primary btn-block" type="submit" >Sign In</button>
+</form>
+</div>
+</body>
+</html>

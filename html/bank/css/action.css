@@ -1,0 +1,39 @@
+/* Table */
+table {
+  height: 40%;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  margin-bottom: 5vw;
+  overflow-y: scroll;
+  position: static;
+}
+
+
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th,td {
+   color: rgb(11,11,11);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 20px;
+  width: 25%;
+}
+.tl {
+  text-align: center;
+}
+thead th {
+  background: rgb(100,100,200);
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
